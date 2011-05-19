@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ibatorConfiguration PUBLIC "-//Apache Software Foundation//DTD Apache iBATIS Ibator Configuration 1.0//EN" "ibator-config_1_0.dtd" >
+<ibatorConfiguration>
+	<classPathEntry location="?" />
+	<ibatorContext id="?">
+		<ibatorPlugin type="lotus.ibator.plugins.SqlMapClientFactoryPlugin">
+			<property name="targetProject" value="?" />
+			<property name="targetPackage" value="?" />
+			<property name="sqlMapConfigPath" value="?" />
+		</ibatorPlugin>
+		<ibatorPlugin type="lotus.ibator.plugins.Struts2ScaffoldPlugin">
+			<property name="targetProject" value="?" />
+			<property name="servicePackage" value="?" />
+			<property name="actionPackage" value="?" />
+			<property name="sqlMapClientFactoryPackage" value="?" />
+			<property name="namespace" value="?" />
+			<property name="srcPath" value="?" />
+			<property name="webContentPath" value="?" />
+		</ibatorPlugin>
+		<commentGenerator>
+			<property name="suppressDate" value="true" />
+		</commentGenerator>
+		<jdbcConnection driverClass="?"
+			connectionURL="?"
+			userId="?" password="?" />
+		<javaModelGenerator targetProject="?" targetPackage="?" />
+		<sqlMapGenerator targetProject="?" targetPackage="?" />
+		<daoGenerator targetProject="?" targetPackage="?" type="GENERIC-CI" />
+		<table schema="?" tableName="?" domainObjectName="?" />
+	</ibatorContext>
+</ibatorConfiguration>
